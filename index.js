@@ -50,7 +50,7 @@ function iLoveTheBeatles(num) {
 
   do {
     var love = ('I love the Beatles!');
-    beatles.push(love)
+    beatlesLove.push(love)
   } while (incrementVariable() < 15);
 
   return beatlesLove;
