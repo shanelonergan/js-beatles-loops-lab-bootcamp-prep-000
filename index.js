@@ -22,7 +22,7 @@ function theBeatlesPlay(musicians, instruments) {
   return whoPlaysWhat;
 }
 
-function johnLennonFacts(facts) {
+function johnLennonFacts(array) {
   var i = -1;
   var excl = '!!!';
   function incrementVariable() {
@@ -31,10 +31,10 @@ function johnLennonFacts(facts) {
   }
 
   while (incrementVariable() < 4) {
-    facts[i] = (facts[i] + excl);
+    array[i] = (array[i] + excl);
   }
 
-  return facts;
+  return array;
 }
 
 johnLennonFacts(facts);
