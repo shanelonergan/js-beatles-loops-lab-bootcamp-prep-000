@@ -54,5 +54,3 @@ function iLoveTheBeatles(num) {
 
   return beatlesLove;
 }
-
-iLoveTheBeatles(10);
