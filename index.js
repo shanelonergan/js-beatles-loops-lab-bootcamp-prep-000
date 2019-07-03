@@ -39,7 +39,20 @@ function johnLennonFacts(array) {
 
 johnLennonFacts(array);
 
+var beatlesLove = [];
 
-//function iLoveTheBeatles(num) {//
+function iLoveTheBeatles(num) {
+  var i = -1;
+ 
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
 
-//}//
+  do {
+    var love = ('I love the Beatles!');
+    beatles.push(love)
+  } while (incrementVariable() < 14);
+
+  return beatlesLove;
+}
