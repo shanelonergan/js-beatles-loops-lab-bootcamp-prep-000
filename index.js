@@ -39,9 +39,9 @@ function johnLennonFacts(array) {
 
 johnLennonFacts(array);
 
-var beatlesLove = [];
 
 function iLoveTheBeatles(num) {
+  var beatlesLove = [];
 
   function incrementVariable() {
     num = num + 1;
