@@ -42,17 +42,16 @@ johnLennonFacts(array);
 var beatlesLove = [];
 
 function iLoveTheBeatles(num) {
-  var i = -1;
 
   function incrementVariable() {
-    i = i + 1;
-    return i;
+    num = num + 1;
+    return num;
   }
 
   do {
     var love = ('I love the Beatles!');
     beatles.push(love)
-  } while (incrementVariable() < 14);
+  } while (incrementVariable() < 15);
 
   return beatlesLove;
 }
