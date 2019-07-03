@@ -30,7 +30,7 @@ function johnLennonFacts(array) {
     return i;
   }
 
-  while (incrementVariable() < 4) {
+  while (incrementVariable() < array.length) {
     array[i] = (array[i] + excl);
   }
 
